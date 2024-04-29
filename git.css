@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(8, 13, 29);
+    background-image: url(fundo-lading.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    background-color: rgb(8, 8, 44);
+    height: auto;
+display: flex;
+justify-content: space-between;
+}
+#logo-header{
+    height: 100%;
+    width: 3.5vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+
+}
+button{
+    text-decoration: none;
+    border: solid white 0.2vw;
+
+    background-color: transparent;
+    color: white;
+    padding: 1vw;
+    border-radius: 2vw;
+}
+button:hover{
+    background: grey;
+    cursor: pointer;
+}
+#main-button{
+    padding: 1vw;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+input{
+    background-color: transparent;
+    border: solid white 0.2vw;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    color: white;
+    
+}
+main{
+margin-left: 16vw;
+margin-top: 20vw;
+}
